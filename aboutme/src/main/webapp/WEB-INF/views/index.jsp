@@ -90,7 +90,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div> 
                       </div>
-                      <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-4.jpg" alt="">
+                      <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-4.PNG" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item filter marketing">
@@ -100,7 +100,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-5.jpg" alt="">
+                      <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-6.jpg" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item filter consulting">
@@ -110,7 +110,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-6.jpg" alt="">
+                      <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-5.PNG" alt="">
                   </a>
               </div>              
               <div class="col-sm-4 portfolio-item filter consulting">
@@ -267,159 +267,7 @@
 <!--====================================================
                     PORTFOLIO MODALS
 ======================================================-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" >
-      <div class="modal-dialog" role="document">
-          <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
-                      <div class="rl"></div>
-                  </div>
-              </div>
-              <div class="container">
-                  <div class="row">
-                          <div class="modal-body">
-                              <div class="title-bar">
-                                <div class="col-md-12">
-                                  <h2 class="text-center">Our Project</h2>
-                                  <div class="heading-border"></div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-6">
-                                  <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-1.jpg" alt="">
-                                </div>
-                                <div class="col-md-6">
-                                  <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                  <ul class="list-inline item-details">
-                                      <li>Client:
-                                          <strong>
-                                            <a href="#">Techs Soft</a>
-                                          </strong>
-                                      </li>
-                                      <li>Date:
-                                          <strong> 
-                                            <a href="#">April 2018</a>
-                                          </strong>
-                                      </li>
-                                      <li>Service:
-                                          <strong>
-                                            <a href="#">Web Development</a>
-                                          </strong>
-                                      </li>
-                                  </ul>
-                                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                      <i class="fa fa-times"></i> Close
-                                  </button>
-                              </div>
-                            </div>
-                          </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-2.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-3.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                              </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -439,24 +287,28 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-4.jpg" alt="">
+                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-4.PNG" alt="">
                               </div>
                               <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
+                                <p>프로젝트명: stampus</p>
+                                <p>기획 의도: 인증시스템을 갖춘 소셜 웹 서비스</p>
+                                <p>개발 기간: 20.12.01~21.01.21</p>
+                                <p>개발 인원: 5명</p>
+                                <p>나의 역할: DB설계 및 생성, 공지사항, QnA, 협력업체, 후기게시판, 메일링서비스</p>
                                 <ul class="list-inline item-details">
-                                    <li>Client:
+                                    <li>Git:
                                         <strong>
-                                          <a href="#">Techs Soft</a>
+                                          <a href="https://github.com/jeeHwon/projectKY">stampus</a>
                                         </strong>
                                     </li>
-                                    <li>Date:
+                                    <li>Demo video:
                                         <strong>
-                                          <a href="#">April 2018</a>
+                                          <a href="https://www.youtube.com/watch?v=cGAP5S8Aifc">youtube</a>
                                         </strong>
                                     </li>
-                                    <li>Service:
+                                    <li>Site:
                                         <strong>
-                                          <a href="#">Web Development</a>
+                                          <a href="http://sarte.kr/stampus/">stampus site</a>
                                         </strong>
                                     </li>
                                 </ul>

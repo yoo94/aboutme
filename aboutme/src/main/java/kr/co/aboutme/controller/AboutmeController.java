@@ -9,6 +9,10 @@ public class AboutmeController {
 @Autowired
 public SqlSession sqlSession;
 
+@RequestMapping("/")
+public String home() {
+	return "redirect:/index";
+}
 @RequestMapping("/index")
 public String index() {
 	return "/index";
