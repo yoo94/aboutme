@@ -138,28 +138,49 @@
                   <div class="skill-item">
                       <i class="fa fa-html5 fa-5x"></i>
                       <h2><span class="counter"> 84 </span><span>%</span></h2>
-                      <p>HTML5</p>
+                      <p>java/Spring</p>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-css3 fa-5x"></i>
                       <h2><span class="counter"> 95 </span><span>%</span></h2>
-                      <p>CSS3</p>
+                      <p>python</p>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-code fa-5x"></i>
                       <h2><span class="counter"> 65 </span><span>%</span></h2>
-                      <p>JQuery</p>
+                      <p>DB(Oracle/Mysql)</p>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-globe fa-5x"></i>
                       <h2><span class="counter"> 89 </span><span>%</span></h2>
-                      <p>PHP</p>
+                      <p>HTML5 & CSS3</p>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fa fa-globe fa-5x"></i>
+                      <h2><span class="counter"> 89 </span><span>%</span></h2>
+                      <p>JavaScript</p>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fa fa-globe fa-5x"></i>
+                      <h2><span class="counter"> 89 </span><span>%</span></h2>
+                      <p>jQuery</p>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fa fa-globe fa-5x"></i>
+                      <h2><span class="counter"> 89 </span><span>%</span></h2>
+                      <p>Node.js</p>
                   </div>
               </div>
           </div>
@@ -342,24 +363,24 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-5.jpg" alt="">
+                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-5.PNG" alt="">
                               </div>
                               <div class="col-md-6">
                                 <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
                                 <ul class="list-inline item-details">
-                                    <li>Client:
+                                    <li>Git:
                                         <strong>
-                                          <a href="#">Techs Soft</a>
+                                          <a href="https://github.com/sarte3/project2">Dietmite</a>
                                         </strong>
                                     </li>
-                                    <li>Date:
+                                    <li>Demo video:
                                         <strong>
-                                          <a href="#">April 2018</a>
+                                          <a href="https://www.youtube.com/watch?v=jwWgcvghXi0">youtube</a>
                                         </strong>
                                     </li>
-                                    <li>Service:
+                                    <li>Site:
                                         <strong>
-                                          <a href="#">Web Development</a>
+                                          <a href="http://sarte.kr/food/">Dietmite site</a>
                                         </strong>
                                     </li>
                                 </ul>
@@ -393,24 +414,33 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-6.jpg" alt="">
+                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-5.PNG" alt="">
                               </div>
                               <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
+                              <p>프로젝트명: Dietmite</p>
+                                <p>기획 의도: 트렌드,가격,필수영양소를 고려한 식단추천 사이트</p>
+                                <p>개발 기간: 21.02.01~21.03.15</p>
+                                <p>개발 인원: 4명</p>
+                                <p>나의 역할: 
+                                			<p/>-bootstrap적용 및 bootstrap을 이용한 css,js,jquery관리sitemesh decoarte를 사용해서 header와footer 적용
+											 <p/>-필수영양소 테이블(DB data구현)
+											<p/>-음식 및 식품 영양성분 게시판-기존AJAX보다 더 유연하고 강력한 fetch를         함수화하여, list 페이지에서 content load하기
+											<p/>-chart.js를 통한 필수영양소db시각화
+											<p/>-member테이블을 이용한 회원가입 구현</p>
                                 <ul class="list-inline item-details">
-                                    <li>Client:
+                                    <li>Git:
                                         <strong>
-                                          <a href="#">Techs Soft</a>
+                                          <a href="https://github.com/sarte3/project2">Dietmite</a>
                                         </strong>
                                     </li>
-                                    <li>Date:
+                                    <li>Demo video:
                                         <strong>
-                                          <a href="#">April 2018</a>
+                                          <a href="https://www.youtube.com/watch?v=jwWgcvghXi0">youtube</a>
                                         </strong>
                                     </li>
-                                    <li>Service:
+                                    <li>Site:
                                         <strong>
-                                          <a href="#">Web Development</a>
+                                          <a href="http://sarte.kr/food/">Dietmite site</a>
                                         </strong>
                                     </li>
                                 </ul>
