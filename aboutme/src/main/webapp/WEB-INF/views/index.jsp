@@ -182,63 +182,50 @@
                   <div class="award">
                       <div class="award-icon"></div>
                       <div class="award-content">
-                          <span class="date">Apr 2017 - Mar 2018</span>
-                          <h5 class="title">Google Analytics Certified Developer</h5>
+                          <span class="date">back-end</span>
+                          <h5 class="title">Python & JAVA & JSP&Servlet</h5>
                           <p class="description">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+Python- Pandas 활용한 데이터 분석 / Numpy 활용한 다차원 배열 처리 / Matplotlib 및 Seaborn 라이브러리로 데이터를 시각화
+                          </p>
+                          <p class="description">
+JAVA- 	기본 문법부터 컬렉션 프레임워크를 활용한 구현
+                          </p>
+                          <p class="description">
+JSP&Servlet-ack-end 기술요구에 맞는 웹어플리케이션 개발 / Servlet(Controller) 이용한 사용자 인증 및 게시판 작성 / cos.jar 라이브러리 및 DAO, DTO 이용한 파일업로드 
                           </p>
                       </div>
                   </div>
                   <div class="award">
                       <div class="award-icon"></div>
                       <div class="award-content">
-                          <span class="date">Apr 2018 - Mar 2019</span>
-                          <h5 class="title">Mobile Web Specialist - Google Certification</h5>
+                          <span class="date">database </span>
+                          <h5 class="title">Oracle & MySQL</h5>
                           <p class="description">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                          </p>
+CRUD & join 활용 / JDBC(Driver loading, Connection pool, Statement, ResultSet) 활용</p>
+
                       </div>
                   </div>
                   <div class="award">
                       <div class="award-icon"></div>
                       <div class="award-content">
-                          <span class="date">Apr 2017 - Mar 2018</span>
-                          <h5 class="title">Google Analytics Certified Developer</h5>
+                          <span class="date">front-end</span>
+                          <h5 class="title">HTML5/CSS3 & JavaScript,jQuery</h5>
                           <p class="description">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                          </p>
+웹표준 UI 개발 /bootstrap활용/ js,jquery 기초 활용 및 effects 구현 가능</p>
+                          <p class="description">
+Back-end 기술요구에 맞는 웹어플리케이션 개발 / Servlet(Controller) 이용한 사용자 인증 및 게시판 작성 / cos.jar 라이브러리 및 DAO, DTO 이용한 파일업로드 / Beans와 JDBC 이용한 DB 연동 프로세스 개발 / MVC 디자인 패턴에 맞는 컨트롤러 및 화면 구현</p>
                       </div>
                   </div>
                   <div class="award">
                       <div class="award-icon"></div>
                       <div class="award-content">
-                          <span class="date">Apr 2018 - Mar 2019</span>
-                          <h5 class="title">Mobile Web Specialist - Google Certification</h5>
+                          <span class="date">framework</span>
+                          <h5 class="title">Spring & Bootstrap & MyBatis</h5>
                           <p class="description">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                          </p>
+Maven 활용해 Spring MVC 이용한 웹어플리케션 개발/BootStrap 활용한 반응형 웹페이지 구현/페이징 기법 사용가능 / Service 클래스와 Mapper 클래스 이용한 게시판 구현가능</p>
                       </div>
                   </div>
-                  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Apr 2017 - Mar 2018</span>
-                          <h5 class="title">Google Analytics Certified Developer</h5>
-                          <p class="description">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                          </p>
-                      </div>
-                  </div>
-                  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Apr 2018 - Mar 2019</span>
-                          <h5 class="title">Mobile Web Specialist - Google Certification</h5>
-                          <p class="description">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                          </p>
-                      </div>
-                  </div>
+                  
               </div>
           </div>
       </section> 
