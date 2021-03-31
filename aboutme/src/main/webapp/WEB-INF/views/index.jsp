@@ -62,7 +62,6 @@
     ======================================================-->
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
           <div class="my-auto" >
-              <img src="<%=request.getContextPath()%>/resources/bootstrap/img/logo-s.png" class="img-fluid mb-3" alt="">
               <h1 class="mb-0">Yoo
                 <span class="text-primary">Jaeseok</span>
               </h1>
@@ -78,7 +77,7 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio"> 
           <div class="row my-auto">
               <div class="col-12">
-                <h2 class="  text-center">Portfolio</h2>
+                <h2 class="  text-center">Project</h2>
                 <div class="mb-5 heading-border"></div>
               </div>
           </div>
@@ -100,7 +99,7 @@
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-6.jpg" alt="">
+                      <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-6.PNG" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item filter consulting">
@@ -113,17 +112,7 @@
                       <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-5.PNG" alt="">
                   </a>
               </div>              
-              <div class="col-sm-4 portfolio-item filter consulting">
-                  <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-6.jpg" alt="">
-                  </a>
-              </div>              
-               
+              
           </div>
       </section>
 
@@ -134,52 +123,45 @@
          <div class="p-lg-5 p-3 skill-cover">
           <h3 class="text-center text-white">Coding Skills</h3>
           <div class="row text-center my-auto "> 
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-4 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-html5 fa-5x"></i>
-                      <h2><span class="counter"> 84 </span><span>%</span></h2>
+                      <h2><span class="counter"> 80 </span><span>%</span></h2>
                       <p>java/Spring</p>
                   </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-4 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-css3 fa-5x"></i>
-                      <h2><span class="counter"> 95 </span><span>%</span></h2>
+                      <h2><span class="counter"> 70 </span><span>%</span></h2>
                       <p>python</p>
                   </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-4 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-code fa-5x"></i>
-                      <h2><span class="counter"> 65 </span><span>%</span></h2>
+                      <h2><span class="counter"> 80 </span><span>%</span></h2>
                       <p>DB(Oracle/Mysql)</p>
                   </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-4 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-globe fa-5x"></i>
-                      <h2><span class="counter"> 89 </span><span>%</span></h2>
+                      <h2><span class="counter"> 75 </span><span>%</span></h2>
                       <p>HTML5 & CSS3</p>
                   </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-4 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-globe fa-5x"></i>
-                      <h2><span class="counter"> 89 </span><span>%</span></h2>
+                      <h2><span class="counter"> 80 </span><span>%</span></h2>
                       <p>JavaScript</p>
                   </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-4 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-globe fa-5x"></i>
-                      <h2><span class="counter"> 89 </span><span>%</span></h2>
-                      <p>jQuery</p>
-                  </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                  <div class="skill-item">
-                      <i class="fa fa-globe fa-5x"></i>
-                      <h2><span class="counter"> 89 </span><span>%</span></h2>
+                      <h2><span class="counter"> 70 </span><span>%</span></h2>
                       <p>Node.js</p>
                   </div>
               </div>
@@ -188,15 +170,55 @@
       </section>
 
     <!--====================================================
-                           AWARDS
+                           study
     ======================================================-->       
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
           <div class="row my-auto">
               <div class="col-12">
-                <h2 class="  text-center">Awards</h2>
+                <h2 class="  text-center">Study</h2>
                 <div class="mb-5 heading-border"></div>
               </div> 
               <div class="main-award" id="award-box">
+                  <div class="award">
+                      <div class="award-icon"></div>
+                      <div class="award-content">
+                          <span class="date">Apr 2017 - Mar 2018</span>
+                          <h5 class="title">Google Analytics Certified Developer</h5>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="award">
+                      <div class="award-icon"></div>
+                      <div class="award-content">
+                          <span class="date">Apr 2018 - Mar 2019</span>
+                          <h5 class="title">Mobile Web Specialist - Google Certification</h5>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="award">
+                      <div class="award-icon"></div>
+                      <div class="award-content">
+                          <span class="date">Apr 2017 - Mar 2018</span>
+                          <h5 class="title">Google Analytics Certified Developer</h5>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="award">
+                      <div class="award-icon"></div>
+                      <div class="award-content">
+                          <span class="date">Apr 2018 - Mar 2019</span>
+                          <h5 class="title">Mobile Web Specialist - Google Certification</h5>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                          </p>
+                      </div>
+                  </div>
                   <div class="award">
                       <div class="award-icon"></div>
                       <div class="award-content">
@@ -228,62 +250,23 @@
           <div class="row my-auto" id="contact"> 
             <div class="col-md-8">
               <div class="contact-cont">
-                <h3>CONTACT Us</h3>
+                <h3>CONTACT Me</h3>
                 <div class="heading-border-light"></div>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.</p>
-              </div>   
-              <div class="row con-form">
-                <div class="col-md-12">
-                  <input type="text" name="full-name" placeholder="Full Name" class="form-control">
-                </div>
-                <div class="col-md-12">
-                  <input type="text" name="email" placeholder="Email Id" class="form-control">
-                </div>
-                <div class="col-md-12">
-                  <input type="text" name="subject" placeholder="Subject" class="form-control">
-                </div>
-                <div class="col-md-12"><textarea name="" id=""></textarea></div>
-                <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 mt-5"> 
-              <div class="contact-cont2"> 
-                <div class="contact-add contact-box-desc">
+             
                   <h3><i class="fa fa-map-marker cl-atlantis fa-2x"></i> Address</h3>
-                  <p>25, Dist town Street, Logn <br>
-                  California, US <br></p>
-                </div>
-                <div class="contact-phone contact-side-desc contact-box-desc">
+                  <p>서울 관악구 남부순환로<br></p>
                   <h3><i class="fa fa-phone cl-atlantis fa-2x"></i> Phone</h3>
-                  <p>800 123 3456 <br>900 123 3457</p>
-                </div>
-                <div class="contact-mail contact-side-desc contact-box-desc">
+                  <p>010 2412 9368</p>
                   <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
                 <address class="address-details-f"> 
-                  Fax: 800 123 3456 <br>
-                  Email: <a href="mailto:info@themsbit.com" class="">info@themsbit.com</a>
+                  Fax: x<br>
+                  Email: <a href="ahy0119@naver.com" class="">ahy0119@naver.com</a>
                 </address>
-                <ul class="list-inline social-icon-f top-data">
-                  <li><a href="#" target="_empty"><i class="fa top-social fa-facebook" style="color: #4267b2; border-color:#4267b2;"></i></a></li>
-                  <li><a href="#" target="_empty"><i class="fa top-social fa-twitter" style="color: #4AB3F4; border-color:#4AB3F4;"></i></a></li>
-                  <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus" style="color: #e24343; border-color:#e24343;"></i></a></li> 
-                </ul>
                 </div>
-              </div>
-            </div> 
+              
           </div>
       </section>
-
-      <section class=" d-flex flex-column" id="maps">
-        <div id="map">
-          <div class="map-responsive">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6030.418742494061!2d-111.34563870463673!3d26.01036670629853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1471908546569" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </section>
-
-
-    </div>
 
 <!--====================================================
                     PORTFOLIO MODALS
@@ -363,26 +346,33 @@
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-5.PNG" alt="">
+                                <img class="img-fluid img-centered" src="<%=request.getContextPath()%>/resources/bootstrap/img/portfolio/p-6.PNG" alt="">
                               </div>
                               <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
+                              <p>프로젝트명: Can Node.js</p>
+                                <p>기획 의도 1: node.js를 사용하여 기본적인 DB와 연동 CRUD/ 기록장 구현</p>
+                                <p>기획 의도 2: node.js의 npm,express사용한 파일 json파일을 받아 단어장 생성</p>
+                                <p>개발 기간: 21.01.21~21.02.01</p>
+                                <p>개발 인원: 개인</p>
+                                <p>나의 역할: 
+                                			<p/>1-1.node.js를 이용한 server구현 및 mysql과 연동한 CRUD 구현
+											 <p/>1-2 CRUD관련 코드 모듈화, 및 pm2를 사용한 유연한 구동
+											<p/>2-1 npm과 express를 사용하여 json파일을 이용한 영어단어장 구현
+											<p/>2-2 nodemon사용
+											
                                 <ul class="list-inline item-details">
                                     <li>Git:
                                         <strong>
-                                          <a href="https://github.com/sarte3/project2">Dietmite</a>
+                                          <a href="https://github.com/yoo94/node.js2">기록장 (mysql연동)</a>
+                                          <a href="https://github.com/yoo94/node.js">단어장 (npm 사용)</a>
                                         </strong>
                                     </li>
                                     <li>Demo video:
                                         <strong>
-                                          <a href="https://www.youtube.com/watch?v=jwWgcvghXi0">youtube</a>
+                                          <a href="https://youtu.be/a_pqY1NFBFA">youtube</a>
                                         </strong>
                                     </li>
-                                    <li>Site:
-                                        <strong>
-                                          <a href="http://sarte.kr/food/">Dietmite site</a>
-                                        </strong>
-                                    </li>
+                                    
                                 </ul>
                                 <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
                                     <i class="fa fa-times"></i> Close
