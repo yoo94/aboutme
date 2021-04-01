@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="<%=request.getContextPath()%>/resources/bootstrap/img/favicon.ico">
-    <title>Profile Bootstrap Theme</title>
+    <title>유재석 프로필</title>
 
     <!-- Global stylesheets -->
     <link href="<%=request.getContextPath()%>/resources/bootstrap/css/bootstrap/bootstrap.min.css" rel="stylesheet">
