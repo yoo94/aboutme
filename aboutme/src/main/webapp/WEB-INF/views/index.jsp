@@ -46,7 +46,7 @@
                     <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+                    <a class="nav-link js-scroll-trigger" href="#study">Study</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -172,7 +172,7 @@
     <!--====================================================
                            study
     ======================================================-->       
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="study">
           <div class="row my-auto">
               <div class="col-12">
                 <h2 class="  text-center">Study</h2>
@@ -183,15 +183,18 @@
                       <div class="award-icon"></div>
                       <div class="award-content">
                           <span class="date">back-end</span>
-                          <h5 class="title">Python & JAVA & JSP&Servlet</h5>
+                          <h5 class="title">Python & JAVA & JSP/Servlet & node.js</h5>
                           <p class="description">
-Python- Pandas 활용한 데이터 분석 / Numpy 활용한 다차원 배열 처리 / Matplotlib 및 Seaborn 라이브러리로 데이터를 시각화
+1.Python- Pandas 활용한 데이터 분석 / Numpy 활용한 다차원 배열 처리 / Matplotlib 및 Seaborn 라이브러리로 데이터를 시각화
                           </p>
                           <p class="description">
-JAVA- 	기본 문법부터 컬렉션 프레임워크를 활용한 구현
+2.JAVA- 	기본 문법부터 컬렉션 프레임워크를 활용한 구현
                           </p>
                           <p class="description">
-JSP&Servlet-ack-end 기술요구에 맞는 웹어플리케이션 개발 / Servlet(Controller) 이용한 사용자 인증 및 게시판 작성 / cos.jar 라이브러리 및 DAO, DTO 이용한 파일업로드 
+3.JSP&Servlet-ack-end 기술요구에 맞는 웹어플리케이션 개발 / Servlet(Controller) 이용한 사용자 인증 및 게시판 작성 / cos.jar 라이브러리 및 DAO, DTO 이용한 파일업로드 
+                          </p>
+                          <p class="description">
+4.Jnode.js- node.js를 이용한 server구현 및 mysql과 연동/npm과 express 사용
                           </p>
                       </div>
                   </div>
@@ -225,7 +228,19 @@ Back-end 기술요구에 맞는 웹어플리케이션 개발 / Servlet(Controlle
 Maven 활용해 Spring MVC 이용한 웹어플리케션 개발/BootStrap 활용한 반응형 웹페이지 구현/페이징 기법 사용가능 / Service 클래스와 Mapper 클래스 이용한 게시판 구현가능</p>
                       </div>
                   </div>
-                  
+                  <div class="award">
+                      <div class="award-icon"></div>
+                      <div class="award-content">
+                          <span class="date">server</span>
+                          <h5 class="title">Tomcat9 & Aws EC2</h5>
+                          <p class="description">
+Tomcat9- STS에서 프로젝트 WAR로 export해 Tomcat 서버 통해 배포
+                          </p>
+                          <p class="description">
+Amazon EC2-AWS의 EC2 활용해 개인 프로젝트 서버 호스팅
+                          </p>
+                      </div>
+                  </div>
               </div>
           </div>
       </section> 
